@@ -20,6 +20,7 @@ const CHROME_EXTENSION_PROTOCOL = 'chrome-extension:';
 const compressionHeaders = ['content-encoding', 'x-original-content-encoding'];
 const compressionTypes = ['gzip', 'br', 'deflate'];
 const binaryMimeTypes = ['image', 'audio', 'video'];
+/** @type {Array<string>} */
 const textResourceTypes = [
   NetworkRequest.TYPES.Document,
   NetworkRequest.TYPES.Script,
